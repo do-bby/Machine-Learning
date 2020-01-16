@@ -14,23 +14,23 @@ toc: true
 from sklearn.datasets import make_blobs
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-# scipy은 과학 계산용 python모듈로 scikit-learn을 사용하기 위한 모듈입니다.
+scipy은 과학 계산용 python모듈로 scikit-learn을 사용하기 위한 모듈입니다.
 
-# 임의의 Data set을 생성
+임의의 Data set을 생성
 
-X, y = make_blobs(random_state=0)
+x, y = make_blobs(random_state=0)
 
-# 데이터와 타깃 레이블을 train set와 test set으로 나눕니다
+데이터와 타깃 레이블을 train set와 test set으로 나눕니다
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
+x_train, x_test, y_train, y_test = train_test_split(x, y, random_state=0)
 
 # 모델 객체를 만들고 훈련 세트로 학습시킵니다
 
-logreg = LogisticRegression().fit(X_train, y_train)
+logreg = LogisticRegression().fit(x_train, y_train)
 
-# 모델을 테스트 세트로 평가합니다
+모델을 테스트 세트로 평가합니다
 
-print("테스트 세트 점수: {:.2f}".format(logreg.score(X_test, y_test)))
+print("테스트 세트 점수: {:.2f}".format(logreg.score(x_test, y_test)))
 
 모델을 평가하기 위한  train_test_split함수를 사용하여 Data set과 train set으로 나누고,
 모델을 만들기 위해 train set에 fit메소드를 적용했고,
@@ -59,16 +59,14 @@ k-fold cross-validation 예제 코드(데이터가 1,2,3,4인 경우)
 import numpy as np
 from sklearn.model_selection import KFold
 
-# 데이터 1,2,3,4
-
 y=np.array([1,2,3,4])
 
-# fold의 개수. 4개의 fold 이면 3개의 train set과 1개의 test set으로 쓰인다.
+fold의 개수. 4개의 fold 이면 3개의 train set과 1개의 test set으로 쓰인다.
 
 kf=KFold(n_splits=4)
 print(kf)
 
-#split메소드는 split 되는 index를 알려줍니다.
+split메소드는 split 되는 index를 알려줍니다.
 for train_index, test_index in kf.split(y):
     print("train:", train_index, "test:", test_index)
     y_train, y_test = y[train_index], y[test_index]
