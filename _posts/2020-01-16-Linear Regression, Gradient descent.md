@@ -37,6 +37,8 @@ W=1,b=3이라고 가정하고, 데이터(10,6)을 1차 방정식 , 즉 모델에
 {% raw %} <img src="https://qkrdbstn15.github.io/assets/img/GD2.png" alt=""> {% endraw %}
 
 경사하강법 과정은 다음과 같습니다.
+
+
 Step 1. 특정 매개변수로 시작(가중치 w1에 대한 시작 값 선택, 보통 0이거나 임의의 값 선택)
 
 Step 2. Loss Function 계산(시작점에서 곡선의 기울기 계산)
