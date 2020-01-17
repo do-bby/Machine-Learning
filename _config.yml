@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Park Yun Soo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/dooobeee.png"# path of avatar image, e.g. 
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
