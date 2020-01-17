@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "DOOO BEEE"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Park Yun Soo"
+name                     : "DOOO BEEE"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Park Yun Soo"
+  name             : "DOOO BEEE"
   avatar           : "/assets/img/dooobeee.png"# path of avatar image, e.g. 
   bio              : "Dooo Beee is free."
   location         : "Somewhere"
