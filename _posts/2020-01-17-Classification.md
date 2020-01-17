@@ -94,6 +94,7 @@ Machine Learning에서 지도학습,비지도학습,강화학습이 있었다고
 >
 >
 > 비선형 성을 추가합니다.
+
 ---
 
 {% raw %} <img src="https://qkrdbstn15.github.io/assets/img/function.png" alt=""> {% endraw %}
