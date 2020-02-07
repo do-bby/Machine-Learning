@@ -50,4 +50,12 @@ w0,w1는 입력값의 가중치.b는 bias
 
 z=w0*x0+w1*x1+b가 된다.
 
+위 라인을 x1(y축)에 대해 정리하면
+기울기는 -w0/w1
 
+y절편은 -b/w1
+
+이 라인이 구분선이 된다.
+
+
+{% raw %} <img src="https://qkrdbstn15.github.io/assets/img/svm.png" alt=""> {% endraw %}
