@@ -1,0 +1,27 @@
+---
+title: "SVM python2"
+categories: 
+  - blogging
+last_modified_at: 2020-02-10 T15:00:00+09:00
+toc: true
+---
+
+~~~python
+
+from sklearn import svm, metrics
+import pandas as pd
+
+data = [[0,0,0],[0,1,1],[1,0,1],[1,1,1]]
+
+frameData=pd.DataFrame(data)
+inputData=frameData.loc[:,0:1]
+resultData=frameData.loc[:,2]
+
+clf=svm.SVC()
+clf.fit(inputData,resultData)
+pre = clf.predict(inputData)
+score=metrics.accuracy_score(pre,resultData)
+print(score)
+
+
+~~~
