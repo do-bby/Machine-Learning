@@ -12,8 +12,6 @@ toc: true
 
 
 
-
-
 from sklearn import svm
 import numpy as np
 import matplotlib.pyplot as plt
@@ -61,29 +59,22 @@ plt.show() #화면 표시 jupyter나 ipython에서 호출안해도댐
 
 
 
-
-
-
-
-
-
-
 ~~~
 
 
 
 # cost = 10
 
-{% raw %} <img src="https://qkrdbstn15.github.io/assets/img/cost=10.png" alt=""> {% endraw %}
+{% raw %} <img src="https://qkrdbstn15.github.io/assets/img/cost =10.png" alt=""> {% endraw %}
 
 
 # cost = 100
 
-{% raw %} <img src="https://qkrdbstn15.github.io/assets/img/cost=100.png" alt=""> {% endraw %}
+{% raw %} <img src="https://qkrdbstn15.github.io/assets/img/cost =100.png" alt=""> {% endraw %}
 
 # cost = 10000
 
-{% raw %} <img src="https://qkrdbstn15.github.io/assets/img/cost=10000.png" alt=""> {% endraw %}
+{% raw %} <img src="https://qkrdbstn15.github.io/assets/img/cost = 10000.png" alt=""> {% endraw %}
 
 
 #gamma = 1
