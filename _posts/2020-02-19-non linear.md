@@ -77,19 +77,19 @@ plt.show() #화면 표시 jupyter나 ipython에서 호출안해도댐
 {% raw %} <img src="https://qkrdbstn15.github.io/assets/img/cost = 10000.png" alt=""> {% endraw %}
 
 
-#gamma = 1
+# gamma = 1
 
 {% raw %} <img src="https://qkrdbstn15.github.io/assets/img/gamma=1.png" alt=""> {% endraw %}
 
 
-#gamma = 10
+# gamma = 10
 
 
 {% raw %} <img src="https://qkrdbstn15.github.io/assets/img/gamma=10.png" alt=""> {% endraw %}
 
 
 
-#gamma = 100
+# gamma = 100
 
 
 {% raw %} <img src="https://qkrdbstn15.github.io/assets/img/gamma=100.png" alt=""> {% endraw %}
